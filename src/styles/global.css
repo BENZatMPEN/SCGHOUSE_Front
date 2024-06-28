@@ -1,0 +1,12 @@
+.ant-picker-ok{
+    .ant-btn{
+        background-color: #1890ff;
+        border-color: #1890ff;
+        color: #fff;
+        &:hover{
+            background-color: #40a9ff;
+            border-color: #40a9ff;
+            color: #fff;
+        }
+    }
+}
