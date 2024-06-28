@@ -11,11 +11,11 @@
 
 ## 2. รัน docker file build
 ```
-docker build -t production-anslysis-dashboard .
+sudo docker build -t production-anslysis-dashboard .
 ```
 ## 3. รัน docker-compose.yaml up
 ```
-docker compose up -d
+sudo docker compose up -d
 ```
 ## 4. เปิดเว็บ
 
