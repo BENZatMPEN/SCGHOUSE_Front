@@ -8,6 +8,7 @@ import PartReport from "./pages/PartReport";
 import WorkSchedule from "./pages/WorkSchedule";
 import LogUpdatePage from "./pages/LogUpdatePage";
 import LogCrossZonePage from "./pages/LogCrossZonePage";
+import ZonePage from "./pages/ZonePage";
 
 const App: FC = () => {
     return (
@@ -21,6 +22,7 @@ const App: FC = () => {
                 <Route path="/work-schedule" element={<WorkSchedule />} />
                 <Route path="/log-update" element={<LogUpdatePage />} />
                 <Route path="/log-cross-zone" element={<LogCrossZonePage />} />
+                <Route path="/zone" element={<ZonePage />} />
                 {/* <Route path="/register" element={<Register />}></Route> */}
             </Routes>
         </>

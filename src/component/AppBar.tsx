@@ -32,7 +32,7 @@ const items: MenuProps['items'] = [
     {
         key: '2',
         label: (
-            <Link to="/part-report">Part Report</Link>
+            <Link to="/part-report">Unit report</Link>
         ),
     },
     {
