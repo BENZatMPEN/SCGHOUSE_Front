@@ -230,7 +230,7 @@ const PartReport: React.FC = () => {
             ...getColumnSearchProps('house_code'),
         },
         {
-            title: 'Part Order',
+            title: 'Unit No.',
             dataIndex: 'part_order',
             key: 'part_order',
             width: 120,
@@ -254,13 +254,13 @@ const PartReport: React.FC = () => {
             width: 100,
         },
         {
-            title: 'Area for B',
+            title: 'Type Stair',
             dataIndex: 'area_for_b',
             key: 'area_for_b',
             width: 100,
         },
         {
-            title: 'Type Stair for R',
+            title: 'Bathroom Area (m2)',
             dataIndex: 'type_stair_for_r',
             key: 'type_stair_for_r',
             width: 150,
